@@ -18,7 +18,7 @@ $$
 
 The toplogical structure of BM(Boltzmann Machine) is between the Hopfield Networks and BP Networks.
 
-![Boltzmann Machine](BM.png)
+![Boltzmann Machine](/image/bolztmann_machine/BM.png)
 
 In form,the BM Network is similar to DHNN,requiring \\\(w_{ij}=w_{ji}\\\) and \\\(w_{ii}=\\\)$.But as to the function,BM is more similar to BP Network with 3 layers(input,hidden and output).
 
@@ -80,7 +80,7 @@ which is the famous Boltzmann Distribution.
 
 By supervised learning,BM Networks could simulate the probability distribution of different patterns of the trainng set,thus realizing associatice memory.The goal of learning is to fit the probability distribution by adjusting the weights in the network.
 
-Assuming that there are $P$ patterns in the training set,the number of hidden nodes in BM is $m$ and of the visable nodes is $n$(usually $P<n$),the probability distribution of the training set can be written as:
+Assuming that there are \\\(P\\\) patterns in the training set,the number of hidden nodes in BM is \\\(m\\\) and of the visable nodes is \\\(n\\\)(usually \\\(P<n\\\)),the probability distribution of the training set can be written as:
 
 $$
 P(X^1),P(X^2,\cdots,P(X^P)
