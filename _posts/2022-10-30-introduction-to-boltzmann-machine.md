@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Boltzmann Machine
-tags: My Blog
+tags: tutorial
 math: true
 date: 2022-10-30 12:00 +0800
 ---
